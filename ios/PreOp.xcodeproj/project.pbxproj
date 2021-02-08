@@ -20,6 +20,7 @@
 		C3C20C97B13EEFCAE48603BB /* libPods-PreOp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DCEB5792297EA67C82D050 /* libPods-PreOp-tvOS.a */; };
 		D4A114CFAF54B1029A9F9939 /* libPods-PreOp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 930FC737C923E03A8FA89BD2 /* libPods-PreOp-tvOSTests.a */; };
 		E2C7F9CBD7227462507CB264 /* libPods-PreOp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BB78C223DAD21449904111 /* libPods-PreOp.a */; };
+		FF0A620425D10E6000C774AB /* AppCenter-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF0A620325D10E6000C774AB /* AppCenter-config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EF7663A3B685650AC780BEAE /* Pods-PreOp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreOp.release.xcconfig"; path = "Target Support Files/Pods-PreOp/Pods-PreOp.release.xcconfig"; sourceTree = "<group>"; };
+		FF0A620325D10E6000C774AB /* AppCenter-config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-config.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				FF0A620325D10E6000C774AB /* AppCenter-config.plist */,
 				13B07FAE1A68108700A75B9A /* PreOp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PreOpTests */,
@@ -194,7 +197,6 @@
 				6F3B5778A90F462BA55F062C /* Pods-PreOp-tvOSTests.debug.xcconfig */,
 				C900F7A786B8F5C8F08D7A94 /* Pods-PreOp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0A620425D10E6000C774AB /* AppCenter-config.plist in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
