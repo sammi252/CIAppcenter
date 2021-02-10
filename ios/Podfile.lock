@@ -1,4 +1,7 @@
 PODS:
+  - AppCenter (4.1.0):
+    - AppCenter/Analytics (= 4.1.0)
+    - AppCenter/Crashes (= 4.1.0)
   - appcenter-analytics (4.0.2):
     - AppCenter/Analytics (~> 4.0)
     - AppCenterReactNativeShared (~> 4.0)
@@ -14,6 +17,8 @@ PODS:
     - AppCenter/Core
   - AppCenter/Core (4.1.0)
   - AppCenter/Crashes (4.1.0):
+    - AppCenter/Core
+  - AppCenter/Distribute (4.1.0):
     - AppCenter/Core
   - AppCenterReactNativeShared (4.0.2):
     - AppCenter/Core (= 4.1.0)
@@ -266,9 +271,13 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
+  - AppCenter
   - appcenter-analytics (from `../node_modules/appcenter-analytics/ios`)
   - appcenter-core (from `../node_modules/appcenter/ios`)
   - appcenter-crashes (from `../node_modules/appcenter-crashes/ios`)
+  - AppCenter/Analytics
+  - AppCenter/Crashes
+  - AppCenter/Distribute
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - FBLazyVector (from `../node_modules/react-native/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
@@ -398,6 +407,6 @@ SPEC CHECKSUMS:
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: c3adf76f43e9a7c55f2740968b90081306177762
+PODFILE CHECKSUM: 329e1852300d879fa4397dd349a2d8d119fc6079
 
 COCOAPODS: 1.10.1
